@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="#sobre">Sobre</a>
+  <a href="#formacao">Formação</a>
+  <a href="#portfolio">Portfólio</a>
+  <a href="#contato">Contato</a>
+  <button onclick="toggleDarkMode()">🌙</button>
+</nav>
+
+<section id="sobre">
+  <h1>Sobre mim</h1>
+
+  <img src="imagens/foto.jpg" alt="Minha foto" width="150">
+
+  <p>Olá meu nome é Humberto Scarduelli, <br> estudante da Uninter do curso de Engenharia de Software. <br>
+    Meus Hobbies são games, Programação, assistir filmes e séries, ouvir música e viajar. <br>
+  
+  </p>
+</section>
+
+<section id="formacao">
+  <h1>Formação</h1>
+  <p>Cursando Engenharia de Software na Uninter.</p>
+</section>
+
+<section id="portfolio">
+  <h1>Portfólio</h1>
+ 
+  <p>Seus projetos aqui</p>
+ <div class="projetos">
+
+    <div class="projeto">
+      <img src="imagens/projeto1.png" alt="Projeto 1">
+      <p>Projeto 1 - Site simples</p>
+    </div>
+
+    <div class="projeto">
+      <img src="imagens/projeto2.png" alt="Projeto 2">
+      <p>Projeto 2 - Sistema básico</p>
+    </div>
+
+  </div>
+
+</section>
+
+<section id="contato">
+  <h1>Contato</h1>
+
+  <form id="form">
+    <input type="text" id="nome" placeholder="Nome">
+    <input type="email" id="email" placeholder="Email">
+    <textarea id="mensagem" placeholder="Mensagem"></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

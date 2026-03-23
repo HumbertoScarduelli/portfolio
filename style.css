@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+nav {
+  background: black;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+section {
+  padding: 80px 20px;
+  height: 100vh;
+}
+
+#sobre { background: #f4f4f4; }
+#formacao { background: #ddd; }
+#portfolio { background: #bbb; }
+#contato { background: #999; }
+
+.dark {
+  background: #121212;
+  color: white;
+}
+
+.dark nav {
+  background: #000;
+}
+
+.dark section {
+  background: #1e1e1e;
+}
+
+img {
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.projetos {
+  display: flex;
+  gap: 20px;
+}
+
+.projeto {
+  text-align: center;
+}
+
+.projeto img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.projeto img {
+  width: 200px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+/* EFEITO HOVER */
+.projeto img:hover {
+  transform: scale(1.1);
+}
+
+.projeto img {
+  width: 200px;
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.projeto img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.projeto {
+  transition: 0.3s;
+}
+
+.projeto:hover {
+  transform: translateY(-10px);
+}
+
